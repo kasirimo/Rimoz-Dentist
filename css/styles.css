@@ -23,5 +23,61 @@ html {
 }
 
 body {
-    font-family: var(--bodyFont);
+    font-family: var(--bodyFont) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headingFont) !important;
+}
+
+/* ====== Header ===== */
+
+header {
+    box-shadow: 0 1px 5px #ccc;
+}
+
+#logo {
+    color: var(--primaryColor);
+    font-size: 2rem !important;
+}
+
+#openNav i {
+    font-size: 2rem;
+    display: none;
+}
+
+#nav-links {
+    position: relative !important;
+}
+
+#nav-drop #solution {
+    position: absolute !important;
+    left: -100% !important;
+    top: 130% !important;
+}
+
+.nav-link {
+    color: var(--dark) !important;
+}
+
+.nav-link:hover {
+    color: var(--primaryColor) !important;
+}
+
+.active {
+    color: var(--primaryColor) !important;
+}
+
+@media screen and (max-width: 576px) {
+    #openNav i {
+        display: block;
+    }
+
+    #nav-drop #solution {
+        position: static !important;
+    }
+
+    .dropdown-menu {
+        border: none !important;
+    }
 }

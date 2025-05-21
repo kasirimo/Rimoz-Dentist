@@ -35,3 +35,10 @@ Analogue color that blends well with blue or Split complementary
 Informative typeface
 Easy to read font with a calming emotion
 Serif for headings and sans serif for body
+
+# Navigation
+Home
+About
+Services
+Book appoitment
+Advice --> Health Tips --> Dental problems
