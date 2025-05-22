@@ -25,6 +25,8 @@ html {
 
 body {
     font-family: var(--bodyFont) !important;
+    min-height: 400vh;
+    letter-spacing: 0.05rem !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,10 +71,11 @@ header {
     color: var(--primaryColor) !important;
 }
 
+/*
 .active {
     color: var(--primaryColor) !important;
 }
-
+*/
 @media screen and (max-width: 768px) {
     #openNav i {
         display: block;
@@ -170,5 +173,16 @@ header {
 @media screen and (max-width: 768px) {
     .about-content {
         width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .about-content h2 {
+        margin-bottom: 36px !important;
+    }
+    .about-text {
+        width: 75% !important;
+        margin-inline: auto;
     }
 }
