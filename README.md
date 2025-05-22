@@ -1,5 +1,11 @@
 # Dentist Website
 
+# Purpose of webstie
+To create awareness for the business
+To get people to book apoitments
+To contact the business
+To inform about dental health
+
 # Content to put
 Location of the Office
 Build trust by showing testimonials
@@ -41,4 +47,20 @@ Home
 About
 Services
 Book appoitment
-Advice --> Health Tips --> Dental problems
+Health --> Health Tips --> Dental problems
+
+## Text
+
+# Hero section
+// Heading Text
+Dental Treatment For A Healthy Lifestyle
+
+// Paragraph Text
+The solution to all your needs, a treatment to relieve your pain and worry
+
+// Call-To-Action
+Contact and Book Appoitment Button
+
+# About
+// Paragraph Text
+We are a dental clinic located in Kenya, we offer various services according to your need. We care for our clients dental problems and offer reliable treatment for them
