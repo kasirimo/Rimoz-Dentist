@@ -64,3 +64,8 @@ Contact and Book Appoitment Button
 # About
 // Paragraph Text
 We are a dental clinic located in Kenya, we offer various services according to your need. We care for our clients dental problems and offer reliable treatment for them
+
+## Services Section
+Three-column layout
+Background image where there's an overlay light blue color linear-gradient
+One call to action for view more

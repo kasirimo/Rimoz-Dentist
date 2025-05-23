@@ -76,7 +76,7 @@ header {
     color: var(--primaryColor) !important;
 }
 */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #openNav i {
         display: block;
     }
@@ -170,13 +170,21 @@ header {
     height: 100% !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .about-content {
         width: 100% !important;
     }
 }
 
 @media screen and (min-width: 600px) {
+
+    .hero .home {
+        margin-top: 0 !important;
+    }
+
+    .about-img img {
+        width: 700px !important;
+    }
 
     .about-content h2 {
         margin-bottom: 36px !important;
