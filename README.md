@@ -69,3 +69,10 @@ We are a dental clinic located in Kenya, we offer various services according to 
 Three-column layout
 Background image where there's an overlay light blue color linear-gradient
 One call to action for view more
+
+## Appoitment Setion
+// A place to book an appointment
+first name
+last name
+number
+calender

@@ -25,7 +25,6 @@ html {
 
 body {
     font-family: var(--bodyFont) !important;
-    min-height: 400vh;
     letter-spacing: 0.05rem !important;
 }
 
@@ -94,9 +93,7 @@ header {
   ------ Hero Section
 */
 
-.hero {
-    height: 90vh;
-}
+
 
 .hero-img img {
     width: 500px;
@@ -176,7 +173,123 @@ header {
     }
 }
 
+
+
+/*
+  ---------- Services Section
+*/
+
+#services {
+    background-image: linear-gradient(rgba(0,205,254,0.4), rgba(0,205,254,0.4)), url(../assets/backimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#service-link span {
+    color: black;
+    border: 1px solid var(--secondaryColor) !important;
+    background-color: var(--secondaryColor) !important;
+    transition: 0.3s ease;
+}
+
+#service-link:hover span {
+    background-color: transparent !important;
+}
+
+.service-bx {
+    height: 100% !important;
+}
+
+#services img {
+    width: 100% !important;
+    height: auto;
+}
+
+/*
+  --------- Appoitment Section
+*/
+
+form button {
+    border: 1px solid var(--primaryColor) !important;
+    background-color: var(--primaryColor) !important;
+    transition: 0.3s ease;
+    color: white !important;
+}
+
+form button:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+
+/*
+  -------- Testimonials Section
+*/
+
+.test-name > div h4 {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+/*
+  --------- Footer Section
+*/
+
+footer {
+    background-color: var(--darkprime) !important;
+}
+
+.socials a {
+    margin-inline: 2px;
+}
+
+.socials a:hover {
+    color: var(--complementary) !important;
+}
+
+.footer-content h2 {
+    color: var(--primaryColor);
+    margin-bottom: 2rem;
+}
+
+.moto-header {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-content .moto {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.footer-content .moto::before {
+    content: '"';
+    color: var(--complementary);
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.footer-content .moto::after {
+    content: '"';
+    color: var(--complementary);
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+/*
+  -------- Responsive Design
+*/
+
+/* Desktop view */
+
 @media screen and (min-width: 600px) {
+
+    .hero {
+        height: 90vh;
+    }
 
     .hero .home {
         margin-top: 0 !important;
@@ -193,9 +306,49 @@ header {
         width: 75% !important;
         margin-inline: auto;
     }
+
+    #services img {
+        height: 250px !important;
+    }
+
+    #book-appoitment {
+        width: 600px !important; 
+        margin-inline: auto;
+    }
+
+    .form-floating input {
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    .form-naming {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .form-names {
+        display: inline-block;
+        width: 45%;
+        margin: 0 !important;
+    }
+
+    .form-names input {
+        width: 100%;
+    }
+
+    #contact-section .row > div:last-of-type {
+        margin-top: 0 !important;
+    }
+
+    .contact-forms {
+        width: 40% !important;
+    }
+
+    .moto {
+        width: 100% !important;
+    }
+
+    .footer-content {
+        min-width: 400px !important;
+    }
 }
-
-/*
-  ---------- Services Section
-*/
-

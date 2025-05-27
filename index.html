@@ -53,6 +53,8 @@
 
         <main>
 
+            <!-- Hero Section-->
+
             <section class="container-fluid hero" id="home">
                 <div class="container-md mt-5 d-flex flex-lg-row flex-column gap-4 gap-lg-1 align-items-center justify-content-lg-between justify-content-sm-center w-100 h-100 home">
                     <div class="hero-content">
@@ -63,7 +65,7 @@
                             <a href="" class="btn text-white h-book">Book Appoitment</a>
                         </div>
                     </div>
-                    <div class="hero-img">
+                    <div class="hero-img mt-4">
                         <img src="assets/ai-g.png" alt="rimoz dental" class="img-fluid">
                     </div>
                 </div>
@@ -71,7 +73,7 @@
     
             <!-- About Section -->
             
-            <section class="container" id="about-sec">
+            <section class="container mt-5 py-3" id="about-sec">
                 <div class="d-flex flex-column flex-md-row gap-5 gap-lg-1 justify-content-lg-between align-items-start justify-content-start align-items-md-center">
                     
                     <div class="about-content text-center align-items-center">
@@ -87,11 +89,208 @@
                 </div>
             </section>
 
-            <section class="container-fluid" id="services">
+            <!-- Services Section -->
 
+            <section class="container-fluid py-3 mt-5" id="services">
+                <h2 class="text-center text-light mt-4"><span class="bg-white text-dark rounded p-1 px-2">Services</span></h2>
+                
+                <div class="row gap-4 mt-5 justify-content-lg-evenly gap-lg-0">
+
+                    <div class="col-12 col-lg-3">
+                        <div class="card service-bx service-bx1">
+                            <div class="card-header text-center">
+                                <img src="assets/cleaning.jpg" alt="teeth cleaning" class="img-fluid" />
+                                <h4 class="card-title text-center mt-3">Teeth Cleaning</h4>
+                            </div>
+                            <div class="card-body text-center">                                
+                                <p>Lorem ipsum dolor sit amet...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3">
+                        <div class="card service-bx service-bx2">
+                            <div class="card-header text-center">
+                                <img src="assets/teeth-cleaning-1514692_1280.jpg" alt="teeth laser" class="img-fluid" />
+                                <h4 class="card-title text-center mt-3">Laser Gum Therapy</h4>
+                            </div>
+                            <div class="card-body text-center">                                
+                                <p>Lorem ipsum dolor sit amet...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3">
+                        <div class="card service-bx service-bx3">
+                            <div class="card-header text-center">
+                                <img src="assets/whitening.jpg" alt="teeth whitening" class="img-fluid" />
+                                <h4 class="card-title text-center mt-3">Teeth Whitening</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <p>Lorem ipsum dolor sit amet...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <a href="" class="btn text-center d-block mt-4" id="service-link"><span class="p-2 px-4 rounded">View More</span></a>
             </section>
+
+            <!-- Book Appoitment -->
+
+            <section id="appoitment">
+                <div class="container mt-5">
+                    <h2 class="text-center mb-5">Book Appoitment</h2>
+                    <form action="" method="post" id="book-appoitment">
+                        <div class="form-naming">
+
+                        <div class="form-floating mb-3 form-names">
+                            <input type="text" class="form-control form-control-sm" id="f-name" name="first-name" placeholder="Enter first name..." required />
+                            <label for="f-name" class="form-label form-label-sm">First Name</label>
+                        </div>
+                        <div class="form-floating mb-3 form-names">
+                            <input type="text" class="form-control" id="l-name" name="last-name" placeholder="Enter last name..." required />
+                            <label for="l-name" class="form-label">Last Name</label>
+                        </div>
+
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="ph-number" name="phone-number" placeholder="Enter number..." required />
+                            <label for="ph-number" class="form-label">Phone Number</label>
+                        </div>
+                        <div>
+                            <label for="calender" class="form-label"> 
+                                <input type="date" class="form-control" id="calender" name="appoitment-date" required />
+                            </label>
+                        </div>
+                        <button type="submit" class="btn d-block mx-auto w-50 mt-4 fs-6">Book</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+
+            <section class="container-fluid" id="testimonials">
+                <div class="container mt-5">
+                    <h2 class="text-center mb-5">Testimonials</h2>
+                    <div class="row gap-5 gap-lg-0 text-center test-name">
+                        <div class="col-12 col-lg-4">
+                            <h4>~ Daniel Kimani ~</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Ut enim ad minim veniam
+                            </p>
+                            <div class="star-container">
+                                <img src="assets/star-152151_1280.png" alt="star" class="img-fluid" style="width: 20px; height: auto;" id="star1" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <h4>~ Dennis Kasirimo ~</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Ut enim ad minim veniam
+                            </p>
+                            <div class="star-container2">
+                                <img src="assets/star-152151_1280.png" alt="star" class="img-fluid" style="width: 20px; height: auto;" id="star2" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <h4>~ Kevin Gitau ~</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Ut enim ad minim veniam
+                            </p>
+                            <div class="star-container3">
+                                <img src="assets/star-152151_1280.png" alt="star" class="img-fluid" style="width: 20px; height: auto;" id="star3" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+
+            <section class="container-fluid bg-light" id="contact-section">
+                <div class="mt-5 py-3">
+                    <div class="row justify-content-around w-100">
+                        
+                        <div class="col-12 col-lg-6">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8012363960697!2d36.80213537504795!3d-1.2937450356344697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1798bad1ab43%3A0x4c8abc816f8db786!2sDental%20Plaza%20-%20University%20of%20Nairobi%20Enterprises%20and%20Services%20Limited!5e0!3m2!1sen!2ske!4v1748259769060!5m2!1sen!2ske" style="border:0; width: 100%; height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded"></iframe>
+                        </div>
+
+                        <div class="col-12 mt-4 col-lg-6 contact-forms">
+                            <h2 class="mb-4">Contact</h2>
+                            <form>
+                                
+                                <label for="user-name" class="form-label d-block">Enter Name:
+                                    <input type="text" class="form-control mt-2 d-block w-100" id="user-name" name="name" required />
+                                </label>
+                                
+                                <label for="user-email" class="form-label d-block py-2">Enter Email:
+                                    <input type="email" class="form-control mt-2" id="user-email" name="email" required />
+                                </label>
+
+                                <label for="message" class="form-label d-block">Send us a message:
+                                    <textarea class="form-control mt-2" name="message" id="message" placeholder="Tell us something..." rows="5"></textarea>
+                                </label>
+                                <button class="btn d-block w-50 mt-3" type="submit">Send</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+
+            <footer class="container-fluid">
+                <div class="container py-5">
+                    <div class="row text-white text-center gap-5 gap-lg-0 footer-content">
+
+                        <div class="col-12 col-lg-3 d-flex flex-column justify-content-lg-between">
+                            <div>
+                            <h2 class="moto-header">Rimoz Dental Clinic</h2>
+                            <p class="mx-auto w-50 mt-3 moto">For strong and healthy teeth to give you that confidence you deserve</p>
+                            </div>
+                            <div class="d-flex justify-content-center socials">
+                                <a href="" class="text-decoration-none text-white"><span><i class="ri-facebook-circle-fill"></i></span></a>
+                                <a href="" class="text-decoration-none text-white"><span><i class="ri-instagram-fill"></i></span></a>
+                                <a href="" class="text-decoration-none text-white"><span><i class="ri-twitter-fill"></i></span></a>
+                                <a href="" class="text-decoration-none text-white"><span><i class="ri-tiktok-fill"></i></span></a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h2>More Info</h2>
+                            <p>FAQ</p>
+                            <p>Nairobi, Kenya CBD</p>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h2>Contacts</h2>
+                            <ul class="nav btn-group btn-group-vertical">
+                                <li class="nav-item mx-auto"><a href="" class="nav-link btn btn-block text-white">rimozdental@gmail.com</a></li>
+                                <li class="nav-item mx-auto"><a href="" class="nav-link btn text-white">+254 705 334455</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h2>Opening Hours</h2>
+                            <p>Mon - Sat | 7:00Am to 8:00PM</p>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
 
         </main>
 
+        <script src="js/script.js"></script>
     </body>
 </html>
