@@ -201,6 +201,10 @@ header {
     height: 100% !important;
 }
 
+.service-bx div h4 {
+    color: var(--darkprime);
+}
+
 #services img {
     width: 100% !important;
     height: auto;
@@ -226,6 +230,14 @@ form button:hover {
 /*
   -------- Testimonials Section
 */
+
+#testimonials {
+    margin-block: 7rem !important;
+}
+
+#testimonials > div > h2 {
+    margin-bottom: 4.4rem !important;
+}
 
 .test-name > div h4 {
     font-style: italic;
@@ -253,6 +265,7 @@ footer {
 .footer-content h2 {
     color: var(--primaryColor);
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 .moto-header {
@@ -264,6 +277,8 @@ footer {
     font-style: italic;
     font-weight: 500;
 }
+
+/*
 
 .footer-content .moto::before {
     content: '"';
@@ -278,6 +293,7 @@ footer {
     font-size: 2rem;
     margin-left: 10px;
 }
+*/
 
 /*
   -------- Responsive Design
@@ -351,4 +367,28 @@ footer {
     .footer-content {
         min-width: 400px !important;
     }
+
+    .moto {
+        margin-top: 2px !important;
+    }
 }
+
+@media screen and (min-width: 992px) {
+    .f-sec {
+        min-height: 240px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .hero {
+        height: 60vh !important;
+    }
+}
+
+/*
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    #services img {
+        width: 60% !important;
+    }
+}
+*/
